@@ -23,13 +23,5 @@
 	"thumbNailUrl":"/images/scroll.png",
 	"projectUrl":"https://bierwurst.github.io/scroll/",
 	"tags": ["Html", "CSS"]
-},
-{
-"title": "Hangman",
-"description":"A simple hangman game",
-"imageUrl":"/images/hangy-uno.svg",
-"thumbNailUrl":"/images/hangy.svg",
-"projectUrl":"https://github.com/Bierwurst/hangman",
-"tags": ["Html", "CSS", "Sass", "proxy", "javascript"]
 }
 ]

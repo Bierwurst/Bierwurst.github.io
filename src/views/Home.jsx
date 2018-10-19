@@ -12,7 +12,7 @@ class Home extends Component{
       <Fragment>
         <Container>
           <Row>
-            <Col className="text"><h1>Hello and Welcome to my Portfolio!!!</h1></Col>
+            <Col className="text about-text"><h1>Hello and Welcome to my Portfolio!!!</h1></Col>
           </Row>
           <Row>
 

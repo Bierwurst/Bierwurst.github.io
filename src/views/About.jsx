@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import profileImage from '../assets/portrait_01-small.png';
-import { Container, Row, Col,Button, Form, FormGroup, Input } from 'reactstrap';
+import { Container, Row, Col} from 'reactstrap';
+// import { Button, Form, FormGroup, Input } from 'reactstrap';
 
 class About extends Component {
   componentDidMount(){
@@ -13,7 +14,7 @@ class About extends Component {
       <Col>
         <Container>
           <Row>
-            <Col className="mb-sm-5">
+            <Col className="mb-sm-5 about-text">
               <h3>About me</h3>
               <p>
                 I have a degree in economics and have been working in various professions such as band manager, cameraman, cutter, illustrator or motion designer. Since the end of 2017 I am on my way to become a web developer at the digital career institute
@@ -29,7 +30,7 @@ class About extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        {/* <Container>
           <Row>
             <Col>
               <h5>For contact please leave your email address and write me a message.</h5>
@@ -54,11 +55,15 @@ class About extends Component {
                </FormGroup>
              </Form>
             </Col>
-          </Row>
-        </Container>
+          </Row> */}
+
     </Col>
     </Row>
   </Container>
+  <div className="col-11 offset-1 about-text text-center">
+      <h4>please copy and paste my mail address to contact me</h4>
+      <p>juergen.schuler@yahoo.com</p>
+  </div>
 
 </Fragment>)
   }
