@@ -1,0 +1,35 @@
+[
+	{
+		"title": "Image gallery",
+		"description":"a image gallery",
+		"imageUrl":"/images/mondfisch.jpg",
+		"thumbNailUrl":"/images/mondfisch.jpg",
+		"projectUrl":"https://bierwurst.github.io/image-gallery/",
+		"tags": ["moonfish", "gallery", "javascript"]
+	},
+
+	{
+		"title": "Tic Tac Toe",
+		"description":"Tic Tac Toe Game",
+		"imageUrl":"/images/tictactoe.svg",
+		"thumbNailUrl":"/images/tictactoe.svg",
+		"projectUrl":"https://github.com/Bierwurst/tic-tac-toe-juergen",
+		"tags": ["React", "ReactDOM", "javascript"]
+	},
+	{
+	"title": "Scroll",
+	"description":"Just scroll down",
+	"imageUrl":"/images/scroll.png",
+	"thumbNailUrl":"/images/scroll.png",
+	"projectUrl":"https://bierwurst.github.io/scroll/",
+	"tags": ["Html", "CSS"]
+},
+{
+"title": "Hangman",
+"description":"A simple hangman game",
+"imageUrl":"/images/hangy-uno.svg",
+"thumbNailUrl":"/images/hangy.svg",
+"projectUrl":"https://github.com/Bierwurst/hangman",
+"tags": ["Html", "CSS", "Sass", "proxy", "javascript"]
+}
+]
