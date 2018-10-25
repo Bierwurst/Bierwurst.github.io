@@ -1,5 +1,6 @@
 import React, {Fragment, Component} from 'react';
-import homeImage from '../assets/fernglas_02-small.png';
+// import homeImage from '../assets/fernglas_02-small.png';
+import homeImageNew from '../assets/fernglas_02_win_01-01.png';
 import { Container, Row, Col } from 'reactstrap';
 
 
@@ -16,7 +17,7 @@ class Home extends Component{
           </Row>
           <Row>
 
-            <Col className="d-flex justify-content-center"><img src={homeImage} alt="" /></Col>
+            <Col className="d-flex justify-content-center"><img src={homeImageNew} alt="" /></Col>
 
           </Row>
         </Container>
