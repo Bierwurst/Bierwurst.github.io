@@ -1,5 +1,5 @@
 import React, {Fragment, Component} from 'react';
-import projects from '../projects.json';
+import projects from '../projects';
 
 
 import {

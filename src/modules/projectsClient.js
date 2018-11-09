@@ -1,4 +1,4 @@
-import projects from '...projects.json';
+import projects from '../projects.js';
 class ProjectsClient {
 	getProjects(){
 		return projects;

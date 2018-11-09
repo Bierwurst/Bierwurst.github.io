@@ -8,7 +8,7 @@ import {
   Col
 } from 'reactstrap';
 
-import projects from '../projects.json';
+import projects from '../projects';
 
 class SingleProject extends Component {
   componentDidMount(){
