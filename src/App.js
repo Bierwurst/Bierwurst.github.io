@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 
 import Home from './views/Home';
 import About from './views/About';
-import NotFound from './views/NotFound';
+// import NotFound from './views/NotFound';
 import Scroll from './views/Scroll';
 import Projects from './views/Projects';
 import SingleProject from './views/SingleProject';
@@ -25,7 +25,8 @@ class App extends Component {
                 <Route path="/projects/:id" component={SingleProject} />
                 <Route exact path="/scroll" component={Scroll} />
 
-                <Route component={NotFound} />
+                <Redirect to="/"/>
+                {/* <Route component={NotFound} /> */}
               </Switch>
             </main>
             <Footer />
