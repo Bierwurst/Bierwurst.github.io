@@ -2,8 +2,8 @@
 	{
 		"title": "Image gallery",
 		"description":"a image gallery",
-		"imageUrl":"/images/mondfisch.jpg",
-		"thumbNailUrl":"/images/mondfisch.jpg",
+		"imageUrl":"https://photos.google.com/photo/AF1QipMtDDQjoSb7Rfwzi3rCfXm_3vl5ag06JRba1ZG_",
+		"thumbNailUrl":"https://photos.google.com/photo/AF1QipMtDDQjoSb7Rfwzi3rCfXm_3vl5ag06JRba1ZG_",
 		"projectUrl":"https://bierwurst.github.io/image-gallery/",
 		"tags": ["moonfish", "gallery", "javascript"]
 	},
@@ -19,8 +19,8 @@
 	{
 	"title": "Scroll",
 	"description":"Just scroll down",
-	"imageUrl":"/images/scroll.png",
-	"thumbNailUrl":"/images/scroll.png",
+	"imageUrl":"https://photos.google.com/search/_tra_/photo/AF1QipOaMe-U63yKexHDXQYh6QpWtJuniWZD3zhohopl",
+	"thumbNailUrl":"https://photos.google.com/search/_tra_/photo/AF1QipOaMe-U63yKexHDXQYh6QpWtJuniWZD3zhohopl",
 	"projectUrl":"https://bierwurst.github.io/scroll/",
 	"tags": ["Html", "CSS"]
 }
